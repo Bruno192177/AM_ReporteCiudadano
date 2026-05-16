@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:orientation="vertical"
-    android:layout_margin="24dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/button_style">
 
     <TextView
-        android:textSize="20sp"
-        android:text="Carr. a Aeropuerto de Guaymas 870-Km 3, 85500 Guaymas, Son."
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reporte Ciudadano"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FDF0F3"
+        android:layout_marginBottom="50dp"/>
 
     <Button
-        android:id="@+id/btnMapa"
-        android:text="Ir al mapa"
+        android:id="@+id/btnReporte"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:textSize="20sp"
-        android:text="Contacto: 6221234567"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btnLlamar"
-        android:text="Llamar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:textSize="20sp"
-        android:text="Correo: atencionciudadana@guaymas.gob.mx"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="60dp"
+        android:text="Crear Reporte"
+        android:textSize="18sp"
+        android:backgroundTint="#A4133C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:elevation="6dp"/>
 
     <Button
-        android:id="@+id/btnCorreo"
-        android:text="Enviar correo"
+        android:id="@+id/btnContacto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="60dp"
+        android:text="Contacto"
+        android:textSize="18sp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:elevation="6dp"/>
 
 </LinearLayout>
