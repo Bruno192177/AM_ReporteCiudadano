@@ -8,7 +8,7 @@ import retrofit2.http.POST;
 
 public interface ApiService {
 
-    @POST("posts")
+    @POST("reportes")
     Call<Reporte> enviarReporte(
             @Body Reporte reporte
     );
